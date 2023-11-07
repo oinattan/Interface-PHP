@@ -4,7 +4,7 @@ Este é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP e MyS
 
 ## Professor: Felipe
 ### Disciplina: Algoritmos e técnicas de programação
-### Aluno: Natan Gomes Biazon | Dev. Web - PHP
+### Aluno: Natan Gomes Biazon | Dev. Web - PHP (https://www.instagram.com/criactivedesign)
 
 ## Requisitos
 
