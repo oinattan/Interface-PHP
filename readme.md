@@ -22,12 +22,15 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
    - Certifique-se de que seu servidor web (por exemplo, Apache) esteja em execução.
    - Configure as informações do banco de dados no arquivo `config.php`.
-   - Incio o Xampp e acesse o Index.php e defina o nome do banco de dados no campo
-   ![Alt text](image.png), após definir o nome, os banco de dados, a tabela definida como REG e as colunas serão criados automatimamente.
-   ![Alt text](image-1.png)
+
 3. Abra o sistema em seu navegador, por exemplo, `http://localhost/seu-diretorio`.
 
 ## Uso
+
+- Acesse o Index.php e defina o nome do banco de dados no campo:
+![Alt text](image.png),<br>
+- Após definir o nome, os banco de dados, a tabela definida como REG e as colunas serão criados automatimamente.
+![Alt text](image-1.png)
 
 Aqui estão as principais funcionalidades do sistema:
 
@@ -35,7 +38,7 @@ Aqui estão as principais funcionalidades do sistema:
 
 - **Ler Registro:** A página inicial exibe todos os registros atualmente armazenados no banco de dados.
 
-- **Atualizar Registro:** Clique no botão "Editar" ao lado de um registro para abrir um pop-up de edição. Faça as alterações necessárias e clique em "Salvar".
+- **Atualizar Registro:** Clique no botão "Editar" ao lado de um registro para abrir uma janela de edição. Faça as alterações necessárias e clique em "Salvar".
 
 - **Excluir Registro:** Clique no botão "Excluir" ao lado de um registro para excluí-lo.
 
@@ -45,16 +48,14 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos 
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Este projeto não é licenciado.
 
 ## Autor
 
-[Seu Nome]
+[Natan Gomes](https://www.linkedin.com/company/criactivedesign)
+[Instagram](https://www.instagram.com/criactivedesign)
 
 ## Contato
 
-Para mais informações ou dúvidas, entre em contato em [seu-email@email.com].
+Para mais informações ou dúvidas, entre em contato em [comercial@criactivedesign.com.br].
 
-## Agradecimentos
-
-Aqui você pode agradecer a quaisquer contribuições, bibliotecas ou recursos externos que você utilizou no projeto.
