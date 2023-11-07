@@ -52,8 +52,11 @@ Este projeto não é licenciado.
 
 ## Autor
 
-[Natan Gomes](https://www.linkedin.com/company/criactivedesign)
-[Instagram](https://www.instagram.com/criactivedesign)
+[Natan Gomes | LinkedIn](https://www.linkedin.com/company/criactivedesign)
+
+<br>
+
+[Natan Gomes | Instagram](https://www.instagram.com/criactivedesign)
 
 ## Contato
 
