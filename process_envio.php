@@ -9,13 +9,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = "root";
         $password = "";
         $databaseName = $_SESSION["database_name"];
-        
+
         $conn = new mysqli($localhost, $username, $password, $databaseName);
-        
+
         if ($conn->connect_error) {
             die("Falha de Conexão: " . $conn->connect_error);
         }
-        
+
         // Verifique se todos os campos obrigatórios estão preenchidos
         if (isset($_POST["text"]) && isset($_POST["number"]) && isset($_POST["date"]) && isset($_POST["color"])) {
             $texto = $_POST["text"];
@@ -36,11 +36,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             echo "Certifique-se de preencher todos os campos obrigatórios.";
         }
-        
+
         $conn->close();
     } else {
         echo "Nome do banco de dados não definido.";
     }
 }
-
-?>

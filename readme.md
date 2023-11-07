@@ -29,11 +29,11 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 - Acesse o `Index.php` e defina o nome do banco de dados no campo:
 <br>
-<img src="assets/image.png" width="400" alt="Defina o nome do banco de dados">
+<img src="assets/image.png" width="400" alt="Defina o nome do banco de dados" style="border-radius: 6px;">
 <br>
 - Após definir o nome, o banco de dados, a tabela e as colunas serão criados automaticamente.
 <br>
-<img src="assets/image-1.png" width="400" alt="Criação automática do banco de dados">
+<img src="assets/image-1.png" width="400" alt="Criação automática do banco de dados" style="border-radius: 6px;">
 
 Aqui estão as principais funcionalidades do sistema:
 
