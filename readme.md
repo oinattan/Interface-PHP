@@ -10,8 +10,8 @@ Este é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP e MyS
 
 Antes de começar, verifique se você atende aos seguintes requisitos:
 
-- Servidor web (por exemplo, Apache)
-- PHP 7.0 ou superior
+- Instale o XAMPP OU WANPP
+- PHP 8.0 ou superior
 - MySQL 5.6 ou superior
 
 ## Instalação
@@ -22,8 +22,9 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
    - Certifique-se de que seu servidor web (por exemplo, Apache) esteja em execução.
    - Configure as informações do banco de dados no arquivo `config.php`.
-   - Crie um banco de dados no MySQL e importe o arquivo SQL `database.sql` para criar a estrutura da tabela.
-
+   - Incio o Xampp e acesse o Index.php e defina o nome do banco de dados no campo
+   ![Alt text](image.png), após definir o nome, os banco de dados, a tabela definida como REG e as colunas serão criados automatimamente.
+   ![Alt text](image-1.png)
 3. Abra o sistema em seu navegador, por exemplo, `http://localhost/seu-diretorio`.
 
 ## Uso
