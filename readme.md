@@ -53,7 +53,6 @@ Este projeto não é licenciado.
 ## Autor
 
 [Natan Gomes | LinkedIn](https://www.linkedin.com/company/criactivedesign)
-
 <br>
 
 [Natan Gomes | Instagram](https://www.instagram.com/criactivedesign)
