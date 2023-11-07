@@ -2,12 +2,11 @@
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_SESSION["database_name"])) {
+    $localhost = "localhost";
+    $username = "u724950182_system";
+    $password = "Teste@teste01";
+    $databaseName = "u724950182_arc"; // Nome do banco de dados padrão
 
-        $localhost = "localhost";
-        $username = "u724950182_system";
-        $password = "Teste@teste01";
-        $databaseName = $_SESSION["database_name"];
 
         $conn = new mysqli($localhost, $username, $password, $databaseName);
 
@@ -39,4 +38,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Nome do banco de dados não definido.";
     }
-}
+
+?>
