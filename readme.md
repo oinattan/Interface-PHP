@@ -10,7 +10,7 @@ Este é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP e MyS
 
 Antes de começar, verifique se você atende aos seguintes requisitos:
 
-- Instale o XAMPP OU WANPP
+- Instale o XAMPP OU WampServer
 - PHP 8.0 ou superior
 - MySQL 5.6 ou superior
 
