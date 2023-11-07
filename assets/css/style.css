@@ -1,0 +1,131 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o contêiner principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cabeçalhos */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: solid 2px #00000076;
+    padding: 1em 0 1em 0;
+}
+
+/* Estilo para informações do aluno e professor */
+.informacoes {
+    margin-top: 10px;
+}
+
+.informacoes p {
+    font-size: 14px;
+}
+
+.informacoes p strong {
+    font-weight: bold;
+}
+
+/* Estilo para o formulário de criação de banco de dados */
+form[action="criar_db.php"] {
+    margin-top: 20px;
+}
+
+/* Estilo para rótulos de formulários */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo para campos de entrada de texto */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="color"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para botões */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Estilo para o campo de cor */
+input[type="color"] {
+    width: 120px; /* Largura personalizada */
+    height: 40px; /* Altura personalizada */
+    padding: 0;
+    margin: 0;
+    border: 2px solid #ddd; /* Adicione uma borda */
+    border-radius: 4px; /* Adicione cantos arredondados */
+    background-color: #f2f2f2; /* Cor de fundo personalizada */
+}
+
+/* Estilo para botões */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilize a borda quando o campo de cor estiver em foco (selecionado) */
+input[type="color"]:focus {
+    border: 2px solid #007bff; /* Cor da borda quando em foco */
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.editar-button, .excluir-button {
+    display: inline-block;
+    margin-right: 10px; /* Ajuste a margem conforme necessário */
+}

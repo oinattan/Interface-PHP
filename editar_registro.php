@@ -3,8 +3,8 @@ session_start();
 
 if (isset($_SESSION["database_name"])) {
     $localhost = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "u724950182_system";
+    $password = "Teste@teste01";
     $databaseName = $_SESSION["database_name"];
 
     $conn = new mysqli($localhost, $username, $password, $databaseName);
@@ -54,12 +54,16 @@ if (isset($_GET["id"])) {
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Registro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <button class="editar-button"><a href="index.php">Voltar</a></button>
     <main>
         <h1>Editar Registro</h1>
         <form action="" method="post">
@@ -76,4 +80,5 @@ if (isset($_GET["id"])) {
         </form>
     </main>
 </body>
+
 </html>

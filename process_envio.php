@@ -1,13 +1,12 @@
 <?php
-session_start(); // Inicia a sessão, se ainda não foi iniciada
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recupere o nome do banco de dados da variável de sessão
     if (isset($_SESSION["database_name"])) {
 
         $localhost = "localhost";
-        $username = "root";
-        $password = "";
+        $username = "u724950182_system";
+        $password = "Teste@teste01";
         $databaseName = $_SESSION["database_name"];
 
         $conn = new mysqli($localhost, $username, $password, $databaseName);
@@ -16,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             die("Falha de Conexão: " . $conn->connect_error);
         }
 
-        // Verifique se todos os campos obrigatórios estão preenchidos
         if (isset($_POST["text"]) && isset($_POST["number"]) && isset($_POST["date"]) && isset($_POST["color"])) {
             $texto = $_POST["text"];
             $number = $_POST["number"];
