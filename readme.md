@@ -1,10 +1,10 @@
 # Sistema CRUD (Create, Read, Update, Delete)
 
-Este é um sistema de exemplo de CRUD (Create, Read, Update, Delete) desenvolvido em PHP e MySQL. Ele permite criar, ler, atualizar e excluir registros em um banco de dados.
+Este é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP e MySQL. Ele permite criar, ler, atualizar e excluir registros em um banco de dados.
 
-#### Professor: Felipe
+## Professor: Felipe
 ### Disciplina: Algoritmos e técnicas de programação
-## Aluno: Natan Gomes Biazon | Dev. Web - PHP
+### Aluno: Natan Gomes Biazon | Dev. Web - PHP
 
 ## Requisitos
 
