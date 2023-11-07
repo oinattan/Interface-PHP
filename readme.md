@@ -27,10 +27,13 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## Uso
 
-- Acesse o Index.php e defina o nome do banco de dados no campo:
-![Alt text](image.png),<br>
-- Após definir o nome, os banco de dados, a tabela definida como REG e as colunas serão criados automatimamente.
-![Alt text](image-1.png)
+- Acesse o `Index.php` e defina o nome do banco de dados no campo:
+<br>
+<img src="assets/image.png" width="400" alt="Defina o nome do banco de dados">
+<br>
+- Após definir o nome, o banco de dados, a tabela e as colunas serão criados automaticamente.
+<br>
+<img src="assets/image-1.png" width="400" alt="Criação automática do banco de dados">
 
 Aqui estão as principais funcionalidades do sistema:
 
