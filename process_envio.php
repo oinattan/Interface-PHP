@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_SESSION["database_name"])) {
 
         $localhost = "localhost";
-        $username = "u724950182_system";
-        $password = "Teste@teste01";
+        $username = "root";
+        $password = "";
         $databaseName = $_SESSION["database_name"];
 
         $conn = new mysqli($localhost, $username, $password, $databaseName);
@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($SQL->execute()) {
                 echo "Sucesso";
+                echo "<a href='index.php' style='text-decoration: none; margin-left: 10px; padding: 20px;'><button>Voltar</button></a>";
             } else {
                 echo "Erro: " . $SQL->error;
             }

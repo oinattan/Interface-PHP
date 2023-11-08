@@ -33,6 +33,9 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 - Após definir o nome, o banco de dados, a tabela e as colunas serão criados automaticamente.
 <br>
 <img src="assets/image-1.png" width="400" alt="Criação automática do banco de dados" style="border-radius: 10px;">
+<br>
+- O Erro abaixo acontece se o Banco de Dados não for criado.
+<img src="assets/image-2.png" width="400" alt="Criação automática do banco de dados" style="border-radius: 10px;">
 
 Aqui estão as principais funcionalidades do sistema:
 
