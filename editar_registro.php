@@ -28,7 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($conn->query($query) === TRUE) {
                 echo "Registro atualizado com sucesso.";
-                echo "<a href='index.php' style='text-decoration: none; margin-left: 10px; padding: 20px;'><button>Voltar</button></a>";
             } else {
                 echo "Erro ao atualizar o registro: " . $conn->error;
             }
