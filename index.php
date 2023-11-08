@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (isset($_SESSION["database_name"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $localhost = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "u724950182_system";
+    $password = "Teste@teste01";
     $databaseName = $_SESSION["database_name"];
 
     $conn = new mysqli($localhost, $username, $password, $databaseName);
@@ -72,9 +72,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <!-- Formulário para criar um novo banco de dados -->
         <form action="criar_db.php" method="post">
-            <label for="database_name">Nome do Banco de Dados:</label>
-            <input type="text" name="database_name" id="database_name">
-            <button type="submit">Enviar</button>
+            <input type="hidden" name="database_name" value="u724950182_arc">
+            <button type="submit">Criar Banco de Dados</button>
         </form>
 
         <h1>Enviar Registros para o DB</h1>
@@ -95,6 +94,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <h1>Registros no Banco de Dados</h1>
         <?php
+
+        $localhost = "localhost";
+        $username = "u724950182_system";
+        $password = "Teste@teste01";
+        $databaseName = "u724950182_arc";
+
+        $conn = new mysqli($localhost, $username, $password, $databaseName);
+
+        if ($conn->connect_error) {
+            die("Falha de Conexão: " . $conn->connect_error);
+        }
+
+        
         $query = "SELECT * FROM REG";
         $result = $conn->query($query);
 
@@ -112,18 +124,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo "<td><a href='download.php?id=" . $row["ID"] . "'>" . $row["FILE"] . "</a></td>";
                 echo "<td>";
                 // Botão Editar
-                
+
                 echo "<input type='hidden' name='id' value='" . $row["ID"] . "'>";
                 echo '<a href="editar_registro.php?id=' . $row["ID"] . '" class="editar-button">Editar</a>';
 
-         
+
                 // Botão Excluir
                 echo "<form action='' method='post' style='display: inline;'>";
-    echo "<input type='hidden' name='id' value='" . $row["ID"] . "'>";
-    echo "<input type='hidden' name='action' value='excluir'>";
-    echo "<button type='submit' class='excluir-button'>Excluir</button>";
-    echo "</form>";
-    
+                echo "<input type='hidden' name='id' value='" . $row["ID"] . "'>";
+                echo "<input type='hidden' name='action' value='excluir'>";
+                echo "<button type='submit' class='excluir-button'>Excluir</button>";
+                echo "</form>";
+
                 echo "</td>";
                 echo "</tr>";
             }
